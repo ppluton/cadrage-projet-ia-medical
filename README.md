@@ -111,17 +111,7 @@ Le fonctionnement comprend 150 € de services techniques et 250 € de maintena
 
 ## Le planning et les décisions
 
-```mermaid
-flowchart LR
-    S1[S1 : besoins et audit] --> J2{Périmètre et faisabilité acceptés}
-    J2 --> S2[Début S2 : POC synthétique]
-    S2 --> J3{J3 : conserver, simplifier ou arrêter}
-    J3 --> D[Fin S2 : fiabilisation]
-    D --> S3[S3 : recette et qualification]
-    S3 --> J5{J5 : autoriser le pilote réel}
-    J5 --> S4[S3-S4 : pilote et transfert]
-    S4 --> J6{J6 : réception et ouverture progressive}
-```
+![Planning de mission : besoins et audit en S1, POC et fiabilisation en S2, recette en S3, pilote en S3-S4 après autorisation, réserve S5](assets/planning.png)
 
 **Environ quatre semaines, avec une semaine de réserve S5.** Les 16,5 jours-personnes sont une charge cumulée, pas une durée calendaire. J3, J5 et J6 désignent des jalons, pas des numéros de jours. La revue J3 intervient après le POC et avant d’engager la suite ; les avis externes peuvent décaler le calendrier.
 
